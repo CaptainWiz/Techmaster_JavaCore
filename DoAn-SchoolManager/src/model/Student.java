@@ -130,10 +130,6 @@ public class Student {
                 ", engPoints:" + englishPoint +
                 "},";
     }
-    //    public String toString() {
-//        return "Mã học sinh: "+idStudent + ", Tên học sinh: " + name + ", Lớp: " + schoolClass + ", Năm sinh: " + year + ", Địa chỉ: " + address ;
-//    }
-//
     public void showStudentInfomation(){
         System.out.printf("%-10s %-20s %-10s %-10d %-20s %-10.2f %-10.2f %-10.2f %-10.2f %-10s  \n" ,idStudent,name,schoolClass,year,address,mathPoint,literaturePoint,englishPoint,countAveragePoint(),rateStudent(countAveragePoint()));
     }
